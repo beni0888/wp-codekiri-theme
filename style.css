@@ -1,0 +1,114 @@
+/*
+ Theme Name:   Codekiri
+ Theme URI:    http://codekiri.com/codekiri/
+ Description:  This is the wordpress theme used in the http://www.codekiri.com website, it is a child of the Apex theme.
+ Author:       Jesús Miguel Benito Calzada
+ Author URI:   http://www.codekiri.com
+ Template:     apex
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: gray, silver, white, light, fluid-layout, responsive-layout, two-columns, right-sidebar, accessibility-ready, custom-menu, featured-images, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+ Text Domain: apex
+*/
+
+body,
+html {
+    /*font: 400 16px 'Open Sans', serif;*/
+    color: #3b3b3b;
+}
+
+a,
+a:link,
+a:visited {
+    font-weight: 600;
+    text-decoration: none;
+    color: #026ed2;
+    border-bottom: 3px solid transparent;
+    -webkit-transition: border 0.2s, color 0.2s ease-out;
+    -moz-transition: border 0.2s, color 0.2s ease-out;
+    transition: border 0.2s, color 0.2s ease-out;
+}
+
+a:hover {
+    color: #296298;
+}
+
+h1 a,
+h1 a:link,
+h1 a:visited,
+h1 a:hover {
+    color: #333333;
+}
+
+h2 a:hover,
+p a:hover {
+    border-bottom: 3px solid #f1ece9;
+}
+
+h2 {
+    font: 700 26px 'Domine', Serif;
+    margin: 30px 0 20px;
+    line-height: 56px;
+    color: #262b30;
+}
+
+h2.widget-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    margin: 0;
+}
+
+/*h3 {*/
+    /*font-size: 22px;*/
+    /*font-weight: 600;*/
+    /*margin: 20px 0 10px;*/
+/*}*/
+
+/*h4 {*/
+    /*font-size: 20px;*/
+    /*font-weight: 600;*/
+    /*margin: 20px 0 10px;*/
+/*}*/
+
+/*h5 {*/
+    /*font-size: 16px;*/
+    /*font-weight: 600;*/
+    /*display: block;*/
+    /*margin: 20px 0 10px;*/
+/*}*/
+
+p {
+    line-height: 38px;
+    margin: 30px 0;
+    word-wrap: break-word;
+    color: #333332;
+}
+
+.post article .post-header h2 a {
+    position: relative;
+    padding: 10px 0;
+    color: #262b30;
+}
+
+.post article .post-header h2 a:hover {
+    color: #007cc3;
+}
+
+.widget .widget-title {
+    margin-bottom: 1em;
+}
+
+.sidebar .widget a {
+    font-weight: normal;
+}
+
+@media all and (min-width: 50em) {
+    .menu-primary-container {
+        margin: 0.25em 0;
+    }
+
+    .title-container {
+        margin: 2.5em 0 3em;
+    }
+}
